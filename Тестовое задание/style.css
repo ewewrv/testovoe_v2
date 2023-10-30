@@ -1,0 +1,504 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+
+
+}
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+html {
+	height: 100%;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+@import url('https://fonts.cdnfonts.com/css/pt-root-ui?styles=24038,24036,24037,24035');
+
+                
+body {
+    font-family: 'PT Root UI', sans-serif;    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+}
+.head{
+    justify-content: space-between;
+
+    width: 65%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+}
+
+.two-one{
+    margin: 17px 0 0 0;
+    padding: 0;
+    width: 690px;
+    height: 45px;
+    display: flex;
+    vertical-align: center;
+    border-bottom: 0.1mm solid rgb(0, 0, 0, 0.3);
+    justify-content: space-between;
+}
+.mail{
+    margin: 0 5px 0 0;
+    width: 25px;
+}
+.devaddr{
+    height: 25px;
+    line-height: 25px;
+    text-align: center;
+    padding: 0;
+}
+.two{
+    margin: 0 15px;
+}
+.two-onez{
+    height: 25px;
+    display: flex;
+    pad: 20px;
+    margin: 0 10px 0 0;
+}
+.two-one-one{
+    display: flex;
+
+}
+.two-one-two{
+    display: flex;
+    height: 25px;
+}
+a{
+    color: black;
+    text-decoration: none;
+    margin: 16px 0;
+}
+.mail-tg{
+    width: 28px;
+}
+.button{
+    background-color: #0046BB;
+    margin: 40px 10px 40px 10px;
+    border-radius: 30px;
+    padding: 15px 35px 15px 35px;
+    border: 1px solid#0046BB;
+    
+}
+.button:hover{
+    background-color: #ffffff;
+    text-emphasis-color: #0046BB;
+    transition: .3s ease;
+}
+.button:hover .tekst{
+    color: #0046BB;
+    transition: .3s ease;
+}
+.tekst{
+    width: 100px;
+    height: 100px;
+    color: white;
+    cursor: pointer;
+}
+.mail-tge{
+    width: 28px;
+    margin: 0;
+    padding: 0;
+}
+ul, li{
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+li{
+    margin: 0 19px;
+    display: inline;
+}
+.navig{
+    margin-top: 20px;
+  
+}
+.addr{
+    margin: 15px 0;
+    text-align: center;
+    vertical-align: center;
+}
+.maila{
+    margin: 0 0px 0 20px;
+    width: 20px;
+
+}
+.banner {
+    background-image: url(./foto/banner/bannerimg.png);
+    height: 600px;
+    width: 100%;
+}
+.content {
+    width: 65%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.snab {
+    padding-top: 80px;
+    text-align: left;
+}
+.banner-zagl{
+    font-family: 'PT Root UI', sans-serif;    font-weight: 400;
+    font-size: 64px;
+    font-weight: bold;
+    line-height: 1.2;
+    color: white;
+}
+.moskva{
+    margin-top: 20px;
+    color: white;
+    line-height: 1.2;
+    font-size: 20px;
+    font-weight: lighter;
+}
+.button-banner {
+    justify-content: center;
+    background-color: #ffffff;
+    border-radius: 30px;
+    padding: 15px 35px ;
+    margin-top: 40px;
+    width: 192px;
+}
+.tekst-banner{
+    border-radius: 30px;
+    font-weight: medium;
+    color: rgba(0, 70, 187, 1);
+    padding: 0;
+    font-size: 16px;
+}
+.button-banner:hover {
+    background-color: rgba(0, 70, 187, 1);
+    transition: .3s ease;
+}
+.button-banner:hover .tekst-banner{
+    color: rgb(255, 255, 255);
+    transition: .3s ease;
+}
+
+.category {
+    margin-top: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.category-zagl {
+    font-size: 40px;
+}
+.primer {   
+    width: 370px;
+    height: 370px;
+    background-color: rgb(95%, 96%, 99%, 1);
+    border-radius: 15px;
+}
+.primer:hover{
+    background-color: rgba(0, 70, 187, 1);
+    border-radius: 15px;
+    transition: .3s ease;
+}
+.primer:hover .primer-foto-cont{
+    background-image: url(./foto/Category/ovals2.png) ;
+    transition: .3s ease;
+}
+.primer:hover .stroymat{
+    color: white;
+    transition: .3s ease;
+
+}
+.primer:hover .primer-button{
+    background-image: url(./foto/Category/strelka2.png);
+    transition: .3s ease;
+
+}
+.primer-foto-cont  {
+    background-image: url(./foto/Category/ovals1.png) ;
+    background-repeat: no-repeat;
+    background-position: 25px 25px;
+}
+/**.primer-foto-cont:hover{
+    background-image: url(./foto/Category/ovals2.png) ;
+    transition: .3s ease;
+}*/
+.primer-foto {
+    margin-top: 35px;
+}
+.primer-foto2 {
+    margin-left: 35px;
+    max-height: 250px;
+}
+.content-two{
+    
+    width: 65%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.swiper-slide{
+    gap: 50px;
+    display: flex;
+    margin-top: 40px;
+
+}
+.primer-name {
+    width: 50%;
+}
+
+.stroymat {
+    margin: 25px 35px;
+    width: 50%;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 1.2;
+}
+.stroymat2 {
+    margin: 5px 35px 25px 35px;
+    width: 50%;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 1.2;
+}
+.stroymat3 {
+    margin: 25px 35px;
+    width: 50%;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 1.2;
+}
+/**
+.stroymat:hover{
+    color: white;
+    transition: .3s ease;
+}*/
+.primer-button {
+    min-width: 50px;
+    max-width: 50px;
+    min-height: 50px;
+    max-height: 50px;
+    width: 50px;
+    height: 50px;
+    margin: 30px 25px 25px 94px;
+    background-image: url(./foto/Category/strelka1.png);
+}
+/**
+.primer-button:hover{
+    background-image: url(./foto/Category/strelka2.png);
+    transition: .3s ease;
+
+}*/
+.cont-primer-name {
+    display: flex;
+}
+.buttonprev {
+    min-width: 24px;
+    max-width: 24px;
+    min-height: 24px;
+    max-height: 24px;
+    background-image: url(./foto/Category//butprev.png)
+}
+.buttonprev:hover {
+    background-image: url(./foto/Category//butprev2.png)
+
+}
+.buttonnext {
+    min-width: 24px;
+    max-width: 24px;
+    min-height: 24px;
+    max-height: 24px;
+    background-image: url(./foto/Category//butnext.png)
+}
+.buttonnext:hover {
+    background-image: url(./foto/Category//butnext2.png)
+
+}
+.buttons {
+    display: flex;
+    gap: 30px;
+}
+.swiper-button-lock {
+    display: flex;
+}
+.buttonnext, .buttonprev {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.soder{
+    margin: 80px 0 0 0;
+}
+.perezvon{
+    background-image: url(./foto/Perezvon/aerial-top-view-shot-of-the-hong-kong-cityscape\ 1.png);
+    border-radius: 15px;
+}
+.nashl{
+    font-size: 40px;
+    line-height: 48px;
+    font-weight: 700;
+    color: white;
+}
+.soder{
+    padding: 55px 80px;
+}
+.perezvon-title{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: white;
+    margin: 10px 0 0 0 ;
+}
+.feedback-form {
+    margin-top: 40px;
+    max-width: max-content;
+    display: flex;
+    gap: 30px;
+    flex-direction: column;
+}
+.feedback-form-inputs {
+    display: flex;
+    gap: 30px;
+}
+
+.feedback-form-input {
+    border-radius: 30px;
+    width: 230px;
+    padding: 15px 35px;
+    color: #0046BB;
+    background-color: #FFFFFF;
+    border: 1px solid #F2F6FC;
+}
+
+.feedback-form-input::placeholder {
+    color: #0046BB;
+}
+
+
+
+.feedback-form-submit {
+    display: flex;
+    justify-content: space-between;
+}
+
+.feedback-personal-data {
+    color: #FFFFFF;
+    font-size: 14px;
+    line-height: 20px;
+    cursor: pointer;
+}
+.button-zaiavka {
+    justify-content: center;
+    background-color: rgba(0, 70, 187, 1);
+    border-radius: 30px;
+    padding: 15px 35px ;
+    border: 1px solid#0046BB;   
+}
+.tekst-zaiavka{
+    border-radius: 30px;
+    font-weight: medium;
+    padding: 0;
+    font-size: 16px;
+}
+.button-zaiavka:hover {
+    background-color: #FFFFFF;
+    transition: .3s ease;
+    
+}
+.button-zaiavka:hover .tekst-zaiavka{
+    color: rgba(0, 70, 187, 1);
+    transition: .3s ease;
+}
+.tekst-zaiavka{
+    color: #FFFFFF;
+}
+.about{
+    background-image: url(./foto/OOO/Group\ 192.png);
+    padding: 80px 0;
+    background-size: 70%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.ooo{
+    font-size: 40px;
+    line-height: 48px;
+    font-weight: 700;
+}
+.about-mission{
+    margin-bottom: 30px;
+    width: 290px;
+    height: 135px;
+    display: flex;
+    align-items: center;
+    padding: 25px 30px 25px 65px;
+    background-color: #F2F6FC;
+    border-radius: 15px;
+    position: relative;
+}
+.about-content{
+    display: flex;
+    gap: 55px;
+    margin-top: 40px;
+}
+.mission{
+    margin-bottom: 5px;
+}
+.icon{
+    position: absolute;
+    top: 50px;
+    left: -40px;
+}
+.about-txt{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.about-txt ul, .about-txt li {
+    list-style: disc;
+    display: list-item;
+    color: var#0046BB
+}
+
+.about-txt ul {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+about-text li::marker {
+    font-size: 18px;
+    color: var#0046BB;
+}
+li {
+    color: #0046BB;     
+   }
+li span{
+    color: black;
+}
